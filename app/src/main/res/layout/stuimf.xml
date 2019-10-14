@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/stu_imformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择你要进行的操作"
+        ></TextView>
+    <Button
+        android:id="@+id/print_stuimp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印学生信息"
+        ></Button>
+    <Button
+        android:id="@+id/add_stuimp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="给学生年龄加一"
+        ></Button>
+    <Button
+        android:id="@+id/tonjibtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="统计大于20岁的人"
+        ></Button>
+</LinearLayout>

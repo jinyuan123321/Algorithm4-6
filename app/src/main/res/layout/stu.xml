@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ed_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入一批学生成绩,以空格隔开以-1作为结束标记"
+        android:inputType="number"
+        ></EditText>
+    <Button
+        android:id="@+id/btn_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        ></Button>
+</LinearLayout>
